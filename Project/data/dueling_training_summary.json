@@ -2,9 +2,9 @@
   "metadata": {
     "algorithm": "Dueling Contextual Bandit (Bradley-Terry)",
     "dataset": "df_bandit.json",
-    "timestamp": "2026-04-04T23:23:55.947063",
+    "timestamp": "2026-04-04T23:44:30.767956",
     "n_models": 20,
-    "n_features": 11,
+    "n_features": 10,
     "n_pairs": 25322
   },
   "training_summary": {
@@ -23,8 +23,7 @@
     "is_hard",
     "is_easy",
     "is_medium_difficulty",
-    "is_other",
-    "normalized_cost"
+    "is_other"
   ],
   "model_names": [
     "RWKV-4-Raven-14B",
