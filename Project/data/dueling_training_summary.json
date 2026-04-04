@@ -2,7 +2,7 @@
   "metadata": {
     "algorithm": "Dueling Contextual Bandit (Bradley-Terry)",
     "dataset": "df_bandit.json",
-    "timestamp": "2026-04-04T23:20:19.929658",
+    "timestamp": "2026-04-04T23:23:55.947063",
     "n_models": 20,
     "n_features": 11,
     "n_pairs": 25322
