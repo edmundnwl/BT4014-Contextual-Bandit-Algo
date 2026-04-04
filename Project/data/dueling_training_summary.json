@@ -2,16 +2,16 @@
   "metadata": {
     "algorithm": "Dueling Contextual Bandit (Bradley-Terry)",
     "dataset": "df_bandit.json",
-    "timestamp": "2026-04-04T23:44:30.767956",
+    "timestamp": "2026-04-05T00:31:00.529301",
     "n_models": 20,
     "n_features": 10,
     "n_pairs": 25322
   },
   "training_summary": {
-    "pairs_processed": 25322,
-    "rounds": 22533,
+    "pairs_processed": 12596,
+    "rounds": 11247,
     "models_trained": 20,
-    "avg_updates_per_model": 2253.3
+    "avg_updates_per_model": 1124.7
   },
   "feature_names": [
     "is_short",
