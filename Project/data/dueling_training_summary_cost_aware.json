@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "algorithm": "Cost-Aware Dueling Bandit (Continuous Rewards)",
+    "dataset": "df_bandit.json",
+    "timestamp": "2026-04-20T22:28:22.442676",
+    "n_models": 20,
+    "n_features": 2,
+    "n_pairs": 12596,
+    "lambda_values": [
+      0.1,
+      0.5,
+      1.0
+    ],
+    "cost_aware": true,
+    "feature_type": "continuous",
+    "features": [
+      "difficulty_norm",
+      "length_norm"
+    ],
+    "training_method": "Margin-based on reward scores (quality - \u03bb*cost)",
+    "note": "Context features describe the query (difficulty, length). Cost enters only via reward signal."
+  },
+  "models": {
+    "lambda_0.1": {
+      "pairs_processed": 12596,
+      "rounds": 11644,
+      "models_trained": 20,
+      "avg_updates_per_model": 1164.4
+    },
+    "lambda_0.5": {
+      "pairs_processed": 12596,
+      "rounds": 11644,
+      "models_trained": 20,
+      "avg_updates_per_model": 1164.4
+    },
+    "lambda_1.0": {
+      "pairs_processed": 12596,
+      "rounds": 11644,
+      "models_trained": 20,
+      "avg_updates_per_model": 1164.4
+    }
+  }
+}
